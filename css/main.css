@@ -1,0 +1,47 @@
+html {
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: rgb(26, 22, 75);
+    color: white;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__link {
+    display: block;
+    padding: 20px;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    background-color: rgba(255,255,255, 0.3);
+    outline: none;
+}
+.nav__link--active {
+    font-weight: bold;
+    background-color: rgba(255,255,255, 0.2);
+}
+
+.nav--bar {
+    font-size: 0;
+}
+.nav--bar .nav__item {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+
+.example {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
