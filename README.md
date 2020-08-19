@@ -6,26 +6,26 @@ This excersise demostrates using modifiers
 
 ## Part 1
 
-Style the buttons in `index.html` to match the image.  The first button is using the default button styles.  Modify the others to alter the styling to match the image.
+Style the navigation in `index.html` to match the image.  
 
 ![Styled Buttons](./.readme/images/example1.png)
 
 ### Steps
 
-1. The button class has been added to each element but the CSS styling for the it needs to be added to main.css.  You can copy the styles from the previous task for this.
-2. BEM naming should be as generic as possible, to add re-use.  **Add** a modifier of "negative" for the red button, and "positive" for the green button.  Make sure both the standard "button" class, and the modifier class are both present in the class list.
-3. in main.css, style the button class to make all the HTML elements appear as buttons.
+1. The in `index.html `navigation block class ("nav") has already been set.  Complete the class naming on the rest of the elements.  Make sure every HTML element inside the "nav" block has a class name.
+2. In `main.css`, style the navigation.
 
 ## Part 2
 
-Create a "back" button modifier and use the `::before` pseudo-selector, to create a back icon modifier.
+Use the block modifier to with BEM element selector.  This is the only time nested selectors are allowed when using BEM.
 
 ![Styled Buttons](./.readme/images/example2.png)
 
 ### Steps
 
-1. In the pseudo-selector, use the content property with the value of `"\0025C0"` (include the quotes) to output an arrow. ([details on using `::before` are here](https://css-tricks.com/almanac/selectors/a/after-and-before/))
-1. Use the both the "back" modifer and the "negative" modifer on the last button to apply both styles.
+1. In Part 2, the block selector ("nav") and block modifier ("nav--bar") have already been set. Complete the class naming on the rest of the elements.  Make sure every HTML element inside the "nav" block has a class name - **Note** it should be the same as part 1.
+2. In `main.css`, Create a mested selector, using the block modifier, to make the navigation inline.
+3. **Important:** Make sure this new styling doesn't change the navigation from part 1.
 
 # Answer
 
