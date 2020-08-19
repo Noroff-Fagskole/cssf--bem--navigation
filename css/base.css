@@ -1,0 +1,9 @@
+html {
+    font-family: sans-serif;
+}
+
+.example {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
