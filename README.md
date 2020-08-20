@@ -10,14 +10,14 @@ Style the navigation in `index.html` to match the image.
 
 ![Styled Buttons](./.readme/images/example1.png)
 
-### Additional styles
-- Highlight the links when the mouse hovers over a link.
-- Make sure when tabbing between the links, the currently focussed item is clearly shown.
-
 ### Steps
 
 1. The in `index.html `navigation block class ("nav") has already been set.  Complete the class naming on the rest of the elements.  Make sure every HTML element inside the "nav" block has a class name.
-2. In `main.css`, style the navigation.
+2. In `main.css`, style the navigation.  The home link needs to be modified to look different from the rest.
+
+### Additional styles (not visible on the example image)
+- Highlight the links when the mouse hovers over a link.
+- Make sure when tabbing between the links, the currently focussed item is clearly shown.
 
 ## Part 2
 
